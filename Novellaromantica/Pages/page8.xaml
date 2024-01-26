@@ -1,0 +1,16 @@
+﻿<Page x:Class="Novellaromantica.Pages.page8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Novellaromantica.Pages"
+        mc:Ignorable="d"
+        Title="page8" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="BackgroundImage"  Margin="0,0,0,45" Source="/images/2.jpg" Stretch="UniformToFill"/>
+        <TextBlock x:Name="storyText" Text="Астра дошла до и поняла что ей нужно в магазин" Foreground="White" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="190,72,0,0" RenderTransformOrigin="0.514,-1.642"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,400,240,0">
+            <Button x:Name="buttonA" Content="Пойти в магазин" Click="buttonA_Click" Width="150" Height="30"/>
+        </StackPanel>
+    </Grid>
+</Page>

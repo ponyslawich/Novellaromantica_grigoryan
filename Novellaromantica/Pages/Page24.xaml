@@ -1,0 +1,16 @@
+﻿<Page x:Class="Novellaromantica.Pages.Page24"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Novellaromantica.Pages"
+        mc:Ignorable="d"
+        Title="Page24" Height="443" Width="800">
+    <Grid Margin="0,0,0,-739">
+        <Image x:Name="BackgroundImage"  Margin="-11,0,11,44" Source="/images/24.jpg" Stretch="UniformToFill"/>
+        <TextBlock x:Name="storyText" Text="Ликорис и Астра в итоге поженились родили и жили долго счастливо" Foreground="White" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="10,381,0,0" RenderTransformOrigin="0.514,-1.642"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,400,240,0">
+            <Button x:Name="buttonA" Content="Дальше" Click="buttonA_Click" Width="150" Height="30"/>
+        </StackPanel>
+    </Grid>
+</Page>

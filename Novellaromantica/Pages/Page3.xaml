@@ -1,0 +1,18 @@
+﻿<Page x:Class="Novellaromantica.Pages.Page3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Novellaromantica.Pages"
+        mc:Ignorable="d"
+        Title="Page3" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="BackgroundImage"  Margin="0,0,0,45" Source="/images/3.jpg" Stretch="UniformToFill"/>
+        <TextBlock x:Name="storyText" Text="Астра зашла и увидела пыль,грязь и сырость. Пойти убираться потому что завтра в школу?" Foreground="White" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="190,72,0,0" RenderTransformOrigin="0.514,-1.642"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,400,240,0">
+            <Button x:Name="buttonA" Content="Убраться" Click="buttonA_Click" Width="150" Height="30"/>
+            <Button x:Name="buttonB" Content="Пойти поваляться" Click="buttonB_Click" Width="150" Height="30" Margin="5"/>
+        </StackPanel>
+        <Image Margin="501,103,-30,43" Source="/images/main.png" Stretch="UniformToFill" RenderTransformOrigin="0.495,0.498"/>
+    </Grid>
+</Page>
